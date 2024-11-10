@@ -1,0 +1,57 @@
+.navbar {
+  height: 60px !important;
+  background-color: var(--main-color) !important;
+}
+.navbar .navbar-brand {
+  font-size: 35px !important;
+}
+.navbar button {
+  width: 40px;
+  border: 1px solid var(--color-tertiary) !important;
+}
+.navbar button i {
+  color: var(--color-tertiary) !important;
+  font-size: 20px;
+}
+.navbar button:focus {
+  outline: 1px solid var(--color-tertiary) !important;
+}
+.navbar a,
+.navbar i,
+.navbar span {
+  color: var(--color-tertiary) !important;
+  font-size: 17px !important;
+  transition: 2s !important;
+  cursor: pointer;
+}
+.navbar a:hover,
+.navbar i:hover,
+.navbar span:hover {
+  color: var(--color-primary) !important;
+}
+.navbar i {
+  margin-right: 20px;
+  font-size: 16px !important;
+  cursor: pointer;
+}
+.navbar .collapse {
+  background-color: var(--main-color) !important;
+}
+
+@media (max-width: 900px) {
+  nav {
+    height: 60px !important;
+    padding: 0 !important;
+    padding-top: 5px !important;
+  }
+  .collapse {
+    padding: 15px;
+    border: 1px solid var(--color-tertiary) !important;
+    border-top: 0 !important;
+    transition: 1s !important;
+  }
+  .collapse:hover {
+    border: 1px solid var(--color-primary) !important;
+    border-top: 0 !important;
+  }
+}/*# sourceMappingURL=style.css.map */

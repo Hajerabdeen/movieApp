@@ -1,0 +1,51 @@
+.person-det{
+  min-height: 90vh;
+}
+.product-image {
+  width: 50%;
+  height: 50%;
+        }
+        .thumbnail {
+            width: 80px;
+            height: 80px;
+            object-fit: cover;
+            cursor: pointer;
+            opacity: 0.6;
+            transition: opacity 0.3s ease;
+        }
+        .thumbnail:hover, .thumbnail.active {
+            opacity: 1;
+        }
+
+.rating-stars {
+  display: flex;
+  gap: 5px;
+}
+
+.filled-star {
+  color: gold !important;
+}
+
+.empty-star {
+  color: rgba(211, 211, 211, 0.192) !important;
+}
+.prim-col{
+  color: var( --color-primary);
+}
+.prim-bg{
+  background-color: var(--color-primary);
+  transition: 1s;
+  &:hover{
+    outline: var(--color-tertiary) 1px solid;
+  }
+}
+
+.biography-container {
+  max-height: 200px;
+  overflow: hidden;
+  transition: max-height 2s ease;
+}
+
+.biography-container.expanded {
+  max-height: 1500px;
+}

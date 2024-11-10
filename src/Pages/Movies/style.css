@@ -1,0 +1,16 @@
+.pagination .page-link{
+background-color: transparent;
+    color: var(--color-tertiary) !important;
+    font-weight: 600;
+    transition: 1s;
+
+} 
+.pagination .page-link:hover {
+    color: var(--color-primary) !important;
+}
+
+
+.active>.page-link, .page-link.active {
+    border-color: var(--color-primary);
+    color: var(--color-primary) !important;
+}

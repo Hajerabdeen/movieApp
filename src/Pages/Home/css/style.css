@@ -1,0 +1,15 @@
+.row img {
+  height: 228px !important;
+  cursor: pointer !important;
+}
+.row .header .main-header p {
+  color: var(--color-primary);
+}
+.row .header .border {
+  height: 2px;
+  background-color: var(--color-primary);
+  opacity: 0.5;
+}
+.row h1 {
+  color: var(--color-tertiary) !important;
+}/*# sourceMappingURL=style.css.map */
