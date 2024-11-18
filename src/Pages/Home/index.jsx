@@ -41,6 +41,7 @@ export default function Home() {
               </div>
             </div>
             {persons
+              .slice(0, 16)
               .map(
                 (person) =>
                   person.profile_path && (

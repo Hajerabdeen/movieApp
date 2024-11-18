@@ -23,7 +23,7 @@ export default function People() {
             </div>
           </div>
           {persons
-            .slice(0, 17)
+            .slice(0, 16)
             .map(
               (person) =>
                 person.profile_path && (
